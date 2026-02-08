@@ -34,6 +34,14 @@
   ],
   "author": "",
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/auniik/coda-ai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/auniik/coda-ai/issues"
+  },
+  "homepage": "https://github.com/auniik/coda-ai#readme",
   "engines": {
     "node": ">=18.0.0"
   },

@@ -1,0 +1,19 @@
+# Source files
+src/
+tests/
+coverage/
+
+# Config files
+tsconfig.json
+vitest.config.ts
+.github/
+
+# Development
+*.log
+*.env
+.DS_Store
+node_modules/
+
+# Git
+.git/
+.gitignore
