@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "id": "ctrl-control1",
+      "type": "control",
+      "href": "https://coda.io/apis/v1/docs/doc1/controls/ctrl-control1",
+      "name": "Date Range",
+      "value": "Last 7 days"
+    },
+    {
+      "id": "ctrl-control2",
+      "type": "control",
+      "href": "https://coda.io/apis/v1/docs/doc1/controls/ctrl-control2",
+      "name": "Category Filter",
+      "value": "All"
+    }
+  ]
+}

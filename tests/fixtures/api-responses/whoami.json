@@ -1,0 +1,15 @@
+{
+  "name": "whoami",
+  "loginId": "user@example.com",
+  "type": "user",
+  "href": "https://coda.io/apis/v1/whoami",
+  "tokenName": "Test Token",
+  "scoped": false,
+  "workspace": {
+    "id": "ws-abc123",
+    "type": "workspace",
+    "organizationId": "org-xyz789",
+    "browserLink": "https://coda.io/w/ws-abc123",
+    "name": "My Workspace"
+  }
+}

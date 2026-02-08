@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "id": "f-formula1",
+      "type": "formula",
+      "href": "https://coda.io/apis/v1/docs/doc1/formulas/f-formula1",
+      "name": "Total Count",
+      "value": 450
+    },
+    {
+      "id": "f-formula2",
+      "type": "formula",
+      "href": "https://coda.io/apis/v1/docs/doc1/formulas/f-formula2",
+      "name": "Average Score",
+      "value": 92.5
+    }
+  ]
+}

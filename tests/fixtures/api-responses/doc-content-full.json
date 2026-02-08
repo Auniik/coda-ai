@@ -1,0 +1,98 @@
+{
+  "doc": {
+    "id": "doc-test123",
+    "name": "Project Tracker",
+    "type": "doc",
+    "href": "https://coda.io/apis/v1/docs/doc-test123",
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-15T10:00:00.000Z"
+  },
+  "structure": {
+    "pages": [
+      {
+        "id": "canvas-page1",
+        "name": "Dashboard",
+        "type": "page"
+      },
+      {
+        "id": "canvas-page2",
+        "name": "Tasks",
+        "type": "page"
+      }
+    ]
+  },
+  "data": {
+    "tables": [
+      {
+        "id": "grid-table1",
+        "name": "Tasks",
+        "type": "table",
+        "columns": [
+          {
+            "id": "c-col1",
+            "name": "Name",
+            "format": "text"
+          },
+          {
+            "id": "c-col2",
+            "name": "Status",
+            "format": "text"
+          },
+          {
+            "id": "c-col3",
+            "name": "Assignee",
+            "format": "text"
+          }
+        ],
+        "rows": [
+          {
+            "id": "i-row1",
+            "name": "Task 1",
+            "values": {
+              "c-col1": "Implement feature A",
+              "c-col2": "Done",
+              "c-col3": "Alice"
+            }
+          },
+          {
+            "id": "i-row2",
+            "name": "Task 2",
+            "values": {
+              "c-col1": "Fix bug B",
+              "c-col2": "In Progress",
+              "c-col3": "Bob"
+            }
+          }
+        ],
+        "rowCount": 2,
+        "hasMore": false
+      }
+    ],
+    "formulas": [
+      {
+        "id": "f-formula1",
+        "name": "Total Tasks",
+        "value": 45
+      },
+      {
+        "id": "f-formula2",
+        "name": "Completion Rate",
+        "value": 78.5
+      }
+    ],
+    "controls": [
+      {
+        "id": "ctrl-control1",
+        "name": "Date Range",
+        "type": "date",
+        "value": "Last 30 days"
+      },
+      {
+        "id": "ctrl-control2",
+        "name": "Status Filter",
+        "type": "select",
+        "value": "All"
+      }
+    ]
+  }
+}

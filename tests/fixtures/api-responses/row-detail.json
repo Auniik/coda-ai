@@ -1,0 +1,15 @@
+{
+  "id": "i-row1",
+  "type": "row",
+  "href": "https://coda.io/apis/v1/docs/doc1/tables/table1/rows/i-row1",
+  "name": "Row 1",
+  "index": 0,
+  "values": {
+    "c-col1": "Test Value 1",
+    "c-col2": 100,
+    "c-col3": "2024-01-15"
+  },
+  "createdAt": "2024-01-01T00:00:00.000Z",
+  "updatedAt": "2024-01-15T10:00:00.000Z",
+  "browserLink": "https://coda.io/d/doc1#row1"
+}

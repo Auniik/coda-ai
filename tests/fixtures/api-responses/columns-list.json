@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "id": "c-col1",
+      "type": "column",
+      "href": "https://coda.io/apis/v1/docs/doc1/tables/table1/columns/c-col1",
+      "name": "Name",
+      "format": "text"
+    },
+    {
+      "id": "c-col2",
+      "type": "column",
+      "href": "https://coda.io/apis/v1/docs/doc1/tables/table1/columns/c-col2",
+      "name": "Count",
+      "format": "number"
+    },
+    {
+      "id": "c-col3",
+      "type": "column",
+      "href": "https://coda.io/apis/v1/docs/doc1/tables/table1/columns/c-col3",
+      "name": "Date",
+      "format": "date"
+    }
+  ]
+}

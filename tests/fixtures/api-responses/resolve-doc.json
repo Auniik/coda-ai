@@ -1,0 +1,8 @@
+{
+  "resource": {
+    "id": "doc1",
+    "type": "doc",
+    "href": "https://coda.io/apis/v1/docs/doc1",
+    "browserLink": "https://coda.io/d/doc1"
+  }
+}

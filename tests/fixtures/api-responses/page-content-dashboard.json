@@ -1,0 +1,80 @@
+{
+  "page": {
+    "id": "canvas-page1",
+    "name": "Dashboard",
+    "type": "page",
+    "href": "https://coda.io/apis/v1/docs/doc-test123/pages/canvas-page1"
+  },
+  "doc": {
+    "id": "doc-test123",
+    "name": "Project Tracker"
+  },
+  "data": {
+    "tables": [
+      {
+        "id": "grid-table1",
+        "name": "Tasks",
+        "type": "table",
+        "columns": [
+          {
+            "id": "c-col1",
+            "name": "Name",
+            "format": "text"
+          },
+          {
+            "id": "c-col2",
+            "name": "Status",
+            "format": "text"
+          },
+          {
+            "id": "c-col3",
+            "name": "Priority",
+            "format": "text"
+          }
+        ],
+        "rows": [
+          {
+            "id": "i-row1",
+            "name": "Task 1",
+            "values": {
+              "c-col1": "Setup authentication",
+              "c-col2": "Done",
+              "c-col3": "High"
+            }
+          },
+          {
+            "id": "i-row2",
+            "name": "Task 2",
+            "values": {
+              "c-col1": "Build API client",
+              "c-col2": "In Progress",
+              "c-col3": "High"
+            }
+          }
+        ],
+        "rowCount": 2,
+        "hasMore": false
+      }
+    ],
+    "formulas": [
+      {
+        "id": "f-formula1",
+        "name": "Total Tasks",
+        "value": 15
+      },
+      {
+        "id": "f-formula2",
+        "name": "Completed",
+        "value": 8
+      }
+    ],
+    "controls": [
+      {
+        "id": "ctrl-control1",
+        "name": "Status Filter",
+        "type": "select",
+        "value": "All"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "id": "canvas-page1",
+      "type": "page",
+      "href": "https://coda.io/apis/v1/docs/doc1/pages/canvas-page1",
+      "name": "Introduction",
+      "browserLink": "https://coda.io/d/doc1#Introduction"
+    },
+    {
+      "id": "canvas-page2",
+      "type": "page",
+      "href": "https://coda.io/apis/v1/docs/doc1/pages/canvas-page2",
+      "name": "Dashboard",
+      "browserLink": "https://coda.io/d/doc1#Dashboard"
+    }
+  ]
+}

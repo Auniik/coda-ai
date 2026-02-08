@@ -1,0 +1,37 @@
+{
+  "items": [
+    {
+      "id": "doc-123",
+      "type": "doc",
+      "href": "https://coda.io/apis/v1/docs/doc-123",
+      "browserLink": "https://coda.io/d/_d123",
+      "name": "Project Tracker",
+      "owner": "user@example.com",
+      "ownerName": "Test User",
+      "createdAt": "2026-01-01T00:00:00.000Z",
+      "updatedAt": "2026-02-01T12:00:00.000Z",
+      "workspace": {
+        "id": "ws-abc123",
+        "type": "workspace",
+        "name": "My Workspace"
+      }
+    },
+    {
+      "id": "doc-456",
+      "type": "doc",
+      "href": "https://coda.io/apis/v1/docs/doc-456",
+      "browserLink": "https://coda.io/d/_d456",
+      "name": "Team Wiki",
+      "owner": "user@example.com",
+      "ownerName": "Test User",
+      "createdAt": "2026-01-15T00:00:00.000Z",
+      "updatedAt": "2026-02-05T15:30:00.000Z",
+      "workspace": {
+        "id": "ws-abc123",
+        "type": "workspace",
+        "name": "My Workspace"
+      }
+    }
+  ],
+  "href": "https://coda.io/apis/v1/docs"
+}
