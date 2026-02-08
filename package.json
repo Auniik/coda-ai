@@ -1,6 +1,6 @@
 {
   "name": "coda-ai",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "AI friendly Coda CLI to save context from Coda docs and provide helpful commands",
   "type": "module",
   "main": "dist/cli.js",
