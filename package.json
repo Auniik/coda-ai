@@ -1,7 +1,7 @@
 {
   "name": "coda-ai",
   "version": "0.2.0",
-  "description": "AI friendly Coda CLI to save context from Coda docs and provide helpful commands",
+  "description": "AI friendly Coda CLI to save context from Coda.io docs and provide helpful commands",
   "type": "module",
   "main": "dist/cli.js",
   "bin": {
@@ -51,7 +51,6 @@
     "cli-table3": "^0.6.5",
     "commander": "^11.1.0",
     "dotenv": "^16.4.5",
-    "fuse.js": "^7.1.0",
     "inquirer": "^9.2.15",
     "js-yaml": "^4.1.0",
     "ora": "^8.0.1",
