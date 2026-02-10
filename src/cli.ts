@@ -5,6 +5,7 @@ import chalk from 'chalk';
 import { getVersion } from './lib/utils.js';
 import { authCommand } from './commands/auth.js';
 import { whoamiCommand } from './commands/whoami.js';
+import { docsCommand } from './commands/docs.js';
 import { findCommand } from './commands/find.js';
 import { readCommand } from './commands/read.js';
 
@@ -17,6 +18,7 @@ program
 
 authCommand(program);
 whoamiCommand(program);
+docsCommand(program);
 findCommand(program);
 readCommand(program);
 

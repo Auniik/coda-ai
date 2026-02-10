@@ -5,3 +5,4 @@ commands:
   - whoami
   - find
   - read
+  - docs
