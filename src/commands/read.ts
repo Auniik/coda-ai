@@ -13,7 +13,7 @@ export function readCommand(program: Command): void {
     .description('Read page content with all resources')
     .requiredOption('--docId <docId>', 'Document ID')
     .requiredOption('--pageId <pageId>', 'Page ID')
-    .option('--format <type>', 'Output format: json, markdown, or html', 'json')
+    .option('--format <type>', 'Output format: markdown, json, or html', 'markdown')
     .action(async (options: { docId: string; pageId: string; format?: string }) => {
       try {
         const docValidation = DocIdSchema.safeParse(options.docId);
@@ -51,11 +51,11 @@ export function readCommand(program: Command): void {
         const client = new CodaClient(apiToken);
 
         try {
-          const format = options.format || 'json';
+          const format = options.format || 'markdown';
           
           if (format !== 'json' && format !== 'markdown' && format !== 'html') {
             spinner.fail('Invalid format');
-            console.error(chalk.red('Error: format must be "json", "markdown", or "html"'));
+            console.error(chalk.red('Error: format must be "markdown", "json", or "html"'));
             process.exit(1);
           }
           

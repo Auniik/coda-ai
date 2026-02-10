@@ -6,7 +6,7 @@ import { getVersion } from './lib/utils.js';
 import { authCommand } from './commands/auth.js';
 import { whoamiCommand } from './commands/whoami.js';
 import { docsCommand } from './commands/docs.js';
-import { findCommand } from './commands/find.js';
+import { pagesCommand } from './commands/pages.js';
 import { readCommand } from './commands/read.js';
 
 const program = new Command();
@@ -19,7 +19,7 @@ program
 authCommand(program);
 whoamiCommand(program);
 docsCommand(program);
-findCommand(program);
+pagesCommand(program);
 readCommand(program);
 
 program.parse(process.argv);

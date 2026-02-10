@@ -75,13 +75,13 @@ export class CodaClient {
       outputFormat: format,
     });
 
-    const requestId = exportResponse.requestId || exportResponse.id;
+    const requestId = exportResponse.id || exportResponse.requestId;
     if (!requestId) {
       throw new CliError('Export request did not return a request ID', 'EXPORT_ERROR');
     }
 
     const maxAttempts = 30;
-    const pollInterval = 2000;
+    const pollInterval = 3000;
 
     for (let attempt = 0; attempt < maxAttempts; attempt++) {
       await this.sleep(pollInterval);

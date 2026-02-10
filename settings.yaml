@@ -3,6 +3,6 @@ docs:
 
 commands:
   - whoami
-  - find
   - read
   - docs
+  - pages
