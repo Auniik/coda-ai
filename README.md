@@ -1,4 +1,4 @@
-# Coda AI CLI
+# Coda.io AI CLI
 
 AI-friendly CLI for Coda.io with minimal commands and structured output.
 
