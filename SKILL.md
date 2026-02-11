@@ -18,9 +18,21 @@ CLI to read Coda.io content for AI agents.
 ## Setup (once)
 
 ```bash
-npm install -g coda-ai
-coda-ai auth # interactive setup
+npm install -g coda-ai@0.2.2
+
+# Auth (Coda API token)
+echo "CODA_API_TOKEN=YOUR_TOKEN" > .env
+coda-ai auth --from-file .env
+
 coda-ai whoami # verify auth
+```
+
+## Credentials & Storage
+- Stored at: `~/.coda-ai/config.json` (written with **0600** permissions)
+- Remove stored credentials:
+
+```bash
+coda-ai logout
 ```
 
 ## Commands
@@ -58,4 +70,4 @@ coda-ai read --docId <docId> --pageId <pageId> --format html    # html export
 
 ## Reference
 
-Full docs: https://github.com/auniik/coda-ai
+Full docs: https://github.com/auniik/coda-ai#readme

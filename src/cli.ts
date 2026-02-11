@@ -8,6 +8,7 @@ import { whoamiCommand } from './commands/whoami.js';
 import { docsCommand } from './commands/docs.js';
 import { pagesCommand } from './commands/pages.js';
 import { readCommand } from './commands/read.js';
+import { logoutCommand } from './commands/logout.js';
 
 const program = new Command();
 
@@ -21,6 +22,7 @@ whoamiCommand(program);
 docsCommand(program);
 pagesCommand(program);
 readCommand(program);
+logoutCommand(program);
 
 program.parse(process.argv);
 

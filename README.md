@@ -12,8 +12,8 @@ npm install -g coda-ai
 ## Quick Start
 
 ```bash
-coda-ai auth                                          # Setup authentication
-coda-ai docs                                          # List documents
+coda-ai auth                                         # Setup authentication
+coda-ai docs                                         # List documents
 coda-ai pages --docId <docId>                        # List pages
 coda-ai read --docId <docId> --pageId <pageId>       # Read page content
 ```
@@ -77,6 +77,12 @@ coda-ai read --docId <docId> --pageId <pageId> --format html    # HTML export
 
 ### Credentials
 Stored in `~/.coda-ai/config.json` with 0600 permissions.
+
+To remove stored credentials:
+
+```bash
+coda-ai logout
+```
 
 ## Development
 
